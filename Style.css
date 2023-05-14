@@ -1,0 +1,214 @@
+header{
+    padding: 0 20px;
+    background: linear-gradient(to right, black 60%, rgba(24, 22, 22, 0.89));
+}
+
+a{
+    text-decoration: none;
+}
+
+.caja{
+    color:white;
+    position: relative;
+    margin: 0 auto;
+    width:940px;
+    
+}
+#logoNavbar{
+    width:280px;
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 110px;
+    
+}
+
+.ul-navbar li{
+    display:inline-block;
+}
+.ul-navbar li a{
+    color: white;
+    margin: 0 0 0 30px;
+    font-size: 24px;
+    transition: 800ms all;
+    cursor:pointer;
+}
+
+.ul-navbar li a:hover{
+    color: rgb(17, 173, 245);
+    text-decoration: underline;
+}
+
+
+/* Body */
+
+body{
+    height:100%;
+    background: url(https://res.cloudinary.com/dmiocpap8/image/upload/v1683937410/Programacion-1000x562_uvsvyd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::before {
+  height:70%;
+  z-index:0;
+  background-color: rgba(0, 0, 0, 0.6);
+  content: "";
+  position: absolute;
+  background-size:cover;
+  top: 30%;
+  left: 0;
+  right: 0;
+} 
+
+.body-contacto::before {
+  height:100%;
+} 
+
+  body div{
+    opacity:1;
+  }
+  .container{
+    position: relative;
+    width: 340px;
+    padding: 20px;
+    margin: 10px auto;
+    background: rgba(22, 21, 21, 0.808);
+    padding:40px;
+    border-radius:25px;
+  }
+  .informacion{
+    font-size: 30px;
+    text-align:center;
+    color:white;
+    }
+
+    .informacion li{
+        margin-bottom: 12px;
+    }
+  #carrera{
+    font-size:20px;
+  }
+  #mi-foto{
+    width:180px;
+    height:240px;
+    border-radius:60%;
+    border: 8px solid rgba(4, 126, 126, 0.774);
+    display: inline-block;
+    
+  }
+
+  .lista-redesSociales li{
+    display:inline-block;
+  }
+
+  .lista-redesSociales li img{
+    width:30px;
+    border-radius: 50%;
+    margin-right:25px;
+    margin-left: 20px;
+    margin-top:20px;
+    transition: 1s;
+  }
+
+  .lista-redesSociales li img:hover{
+    width:35px;
+    border: 4px solid greenyellow;
+  }
+  
+  /* Contacto */
+
+  .contacto{
+    position: relative;
+    width: 320px;
+    padding: 20px;
+    margin: 50px auto;
+    background: rgba(22, 21, 21, 0.842);
+    padding:40px;
+    border-radius:25px;
+    color:white;
+    font-style: bold;
+    font-size: 30px;
+  }
+
+.contacto label{
+    margin-right:100%;
+}
+  .contactame input{
+    margin: 0 0 20px 0;
+    padding: 6px;
+    width:90%;
+  }
+
+  .contactame textarea{
+    margin-top:8px;
+    border-radius: 10px;
+    padding:8px;
+  }
+
+  .contactame :last-child{
+    margin: 25px 60px;
+    width: 200px;
+    height:40px;
+    border-radius: 25px;
+    background:rgba(48, 223, 223, 0.432);
+    color: white;
+    transition: 1s;
+  }
+
+  .contactame :last-child:hover{
+    background:rgb(17, 173, 245);
+    width:220px;
+    height: 50px;
+    margin: 20px 50px;
+  }
+
+  /* Footer */
+  footer{
+    position:absolute;
+    width:93.7%;
+    z-index:99 !important;
+    text-align:center;
+    background:url(https://res.cloudinary.com/dmiocpap8/image/upload/v1683946403/bg_znyddv.jpg);
+    padding:50px;
+    color:white;
+    
+}
+
+footer ul li p{
+    margin-bottom: 8px;
+}
+.copyright{
+    color: white;
+    padding:20px;
+    font-size:13px
+}
+
+/* Curriculum */
+
+.container-curriculum{
+    width:800px;
+    height:400px;
+    position: relative;
+    padding: 20px;
+    margin: 10px auto;
+    background: rgba(22, 21, 21, 0.808);
+    padding:40px;
+    border-radius:25px;
+}
+
+.container-curriculum iframe{
+    height:300px;
+}
+
+.container-curriculum ul{
+    display:block;
+}
+.container-curriculum ul li{
+    display:inline-block;
+}
+
+.listaHojadeVida :last-child{
+    display:block;
+}
