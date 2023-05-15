@@ -30,7 +30,17 @@
     </div>
   </header>
   <body>
-    <div class="container"></div>
+    <div class="container-skills">
+      <canvas id= "canvas-skills" width="400" height="200">
+        <script>
+          let pantalla= document.querySelector('canvas');
+          let pincel = pantalla.getContext("2d");
+
+          pincel.fillStyle="black"
+          pincel.fillRect(0, 0, 600, 400)
+        </script>
+      </canvas>
+    </div>
   </body>
   <footer>
     <ul>
